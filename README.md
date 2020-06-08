@@ -10,7 +10,9 @@ My changes can be found in the bottom of the config file:
 - enable automatic screen locking (via `xss-lock` & `i3lock`) ([found here](https://ermannoferrari.net/i3-config-file))
 
 ## Misc
-I recommend swapping left alt and left windows key and also swap capslock. I did so via `setxkbmap` in `~/.profile`:
+I recommend swapping left alt and left windows key.
+I also swapped capslock and escape and use right alt as compose key.
+You can do this via `setxkbmap` in `~/.profile`:
 ```
-setxkbmap -option altwin:swap_lalt_lwin -option caps:swapescape
+setxkbmap -option altwin:swap_lalt_lwin -option caps:swapescape -option compose:ralt
 ```
