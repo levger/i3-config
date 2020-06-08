@@ -160,6 +160,8 @@ bar {
 for_window [class="^.*"] border pixel 1
 new_window 1pixel
 
+bindsym $mod+x move workspace to output left
+
 # NetworkManager Applet for the status bar
 exec --no-startup-id nm-applet
 
